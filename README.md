@@ -14,6 +14,7 @@ There are two different Service UUID's present on the bike. One of them outputs 
 00002AD9-0000-1000-8000-00805F9B34FB Write Characteristic
 
 The data for the correct one should look like below when running the bowflex python file.
+
 ![](HexOutput.PNG)
 
 ## Cadence Location
