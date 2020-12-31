@@ -98,7 +98,7 @@ def view_binary(arry, mod):
         built += z[i] + " "
     print(built)
 
-main2()
+main()
 
 # ======== MAIN 1 ==============
 # 00001826-0000-1000-8000-00805F9B34FB Service UUID
