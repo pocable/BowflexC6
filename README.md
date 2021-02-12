@@ -19,7 +19,7 @@ The data for the correct one should look like below when running the bowflex pyt
 
 ## Cadence Location
 
-The cadence is the fifth column from the left. This value is a range from 0-250 (when I went as fast as I could go the value never went above 250). When its normalized and scaled to 125 it matches the cadence present on the peloton app perfectly. 
+The cadence is the fifth column from the left. This value is a range from 0-250 (when I went as fast as I could go the value never went above 250). When its scaled to the range (0, 125) it matches the cadence present on the peloton app perfectly. 
 
 ## Suspected Wattage Location
 The data for the wattage I suspect is located on the 3rd column from the left. Zwift reported me reaching 400 watts while the highest number tested on bfserial6 was 238. I suspect that this number might be halved, but its too hard to determine if there is any scaling on that number. It does fluctuate and follow when I increase the resistance, so I do believe this may be it.
